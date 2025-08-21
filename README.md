@@ -1,5 +1,5 @@
 # Terraform
-Repository containing all of my Terraform learnings
+This repository contains all of my Terraform learnings
 
 Below is a description of of the Azure resources I have created in the other files in this repository. Primarily the sequential creation of resources in "main.tf".
 
