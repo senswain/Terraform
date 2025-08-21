@@ -52,7 +52,7 @@ resource "azurerm_network_security_rule" "sen-rule" {
   protocol                    = "*"
   source_port_range           = "*"
   destination_port_range      = "*"
-  source_address_prefix       = "[ip redacted]/32"
+  source_address_prefix       = "[my device public IP for explicit access]/32"
   destination_address_prefix  = "*"
   resource_group_name         = azurerm_resource_group.sen-t.name
   network_security_group_name = azurerm_network_security_group.sen-nsg.name
@@ -133,3 +133,4 @@ output "public_ip_address" {
     value = "${azurerm_linux_virtual_machine.sen-vm.name} : ${azurerm_linux_virtual_machine.sen-vm.public_ip_address}"
 
 }
+
