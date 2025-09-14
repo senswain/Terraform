@@ -15,7 +15,7 @@ Network Security Rule,
 Network Security Group Association, 
 Public IP address, 
 Network Interface Card, 
-Virtual Machine, 
+Virtual Machine
 
 Additionally, there are two other files in this repository, "customdata.tpl" and "windows-ssh-script.tpl";
 
