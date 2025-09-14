@@ -7,15 +7,15 @@ Primarily the sequential creation of resources in "main.tf".
 
 9 Azure resources are created in the following order using Powershell in Microsoft Visual Studio Code:
 
-Resource Group
-Virtual Network
-Subnet
-Network Security Group
-Network Security Rule
-Network Security Group Association
-Public IP address
-Network Interface Card
-Virtual Machine
+Resource Group, 
+Virtual Network, 
+Subnet, 
+Network Security Group, 
+Network Security Rule, 
+Network Security Group Association, 
+Public IP address, 
+Network Interface Card, 
+Virtual Machine, 
 
 Additionally, there are two other files in this repository, "customdata.tpl" and "windows-ssh-script.tpl";
 
